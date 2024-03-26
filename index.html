@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== Page Title ========== -->
+    <title>MD - Project for yeolgun</title>
+
+    <!-- ========== Start Fonts Style ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600&family=Syne:wght@400;500;600&family=Yantramanav:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- ========== Start Animate CSS Style ========== -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- ========== End Animate CSS Style ========== -->
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- ========== End Stylesheet ========== -->
+
+
+</head>
+
+<body>
+
+    <!-- Main -->
+    <main class="main-page homepage">
+        <!-- Header Bar -->
+        <div class="header-bar">
+            <div class="custom-container">
+                <div class="header-bar-body d-flex align-items-center justify-content-between">
+                    <div id="promo-notifications" class="middle"> 
+                            <ul>  
+                                <li>**Bilgilendirme** Spotify, Apple Music, Tiktok'a 10 adet yeni şarkı eklendi..</li>
+                                <li>**Kampanya** Üye ol ücretsiz şarkı yükle ~ Sadece sınırlı süreliğine</li>
+                          </ul>
+                    </div>
+                    <div class="right">
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="header-area">
+
+            <div class="custom-container">
+                <div class="custom-row align-items-center justify-content-between">
+                    <div class="header-left d-flex align-items-center">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/imgs/muzikdagitimi-logo.png" alt="Logo" />
+                        </a>
+
+                        <div class="header-left-right">
+                            <a href="contact.html" class="theme-btn">Contact Us</a>
+                            <span class="menu-bar">
+                                <i class="las la-bars"></i>
+                            </span>
+                        </div>
+                        <nav class="navbar-wrapper">
+                            <span class="close-menu-bar">
+                                <i class="las la-times"></i>
+                            </span>
+                            <ul>
+                                <li>
+                                    <a href="faq.html">Bireysel</a>
+                                </li>
+                                <li class="dropdown-menu-item">
+                                    <a href="index.html">Kurumsal</a>
+                                    <span class="dropdown-menu-item-icon">
+                                        <i class="las la-angle-down"></i>
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="./index.html">Özellikler</a>
+                                        </li>
+                                        <li>
+                                            <a href="./home2.html">Entegrasyonlar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="faq.html">Kaynaklar</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">Hakkımızda</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-right">
+
+                        <div class="header-contact-info d-flex align-items-center">
+                            <div class="cs-wrapper">
+                                <select class="country-select-wrapper" name="country" id="country">
+                                    <option value="tr">TR</option>
+                                    <option value="en">EN</option>
+                                </select>
+                            </div>
+                            <a href="contact.html" class="custom-theme-btn2">Kayıt Ol</a>
+                            <a href="contact.html" class="custom-theme-btn1">Giriş Yap</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-service-wrap hero-section-wrap hero-career-wrap">
+
+            <video autoplay muted loop id="myVideo">
+                <source src="assets/imgs/main-slider-pc.mp4" type="video/mp4">
+            </video>
+              
+        </section>
+
+        <!--write erase section-->
+        <section class="our-team-2-area">
+            <div class="custom-container">
+                <div class="section-header our-team-2-header d-flex align-items-center justify-content-between w-full">
+                    <img class="bg-shape" src="./assets/imgs/bg-shape-10.svg" alt="Shape">
+                    <div class="left">
+                        <div class="text-write-erase-wrapper">Müziğini ücretsiz
+
+                            <!--The actual text placeholder, which will be write with the js code.-->
+                            <p id="text-write-erase"> </p>
+
+                            <div class="text-test">yükle</div>
+
+                        </div>
+
+                        <p>Our team is a collective force of top talents, experts, and <br>
+                            visionaries from diverse fields.</p>
+                    </div>
+
+                    <a href="contact.html" class="theme-btn">Book an appointment with our expert now</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- Advantage Section -->
+                <section class="service3-area">
+
+                    <div class="custom-container">
+                        <div class="custom-row">
+                            <div class="service2-header d-flex align-items-center justify-content-between w-full text-center">
+                                <div class="w-full">
+                                    <h2 class="section-title unique-advantage-title">Benzersiz Avantajlar</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, tempora?</p>
+                                </div>
+        
+        
+                            </div>
+                        </div>
+        
+                        <div class="custom-row custom-row-overflow">
+                            <div class="service-uniq-items d-flex text-center">
+                                <div class="service-card-uniq service-card-border-dance card-h ">
+                                    <img src="./assets/imgs/one-step.svg" alt="Service" class="service-card-border-dance2">
+                                    <h2>Hesap Oluştur</h2>
+                                    <p>Spotify, Apple Music, Tiktok gibi worldwide olarak faaliyet gösteren 150'den fazla platforma arada etiket veya şirket olmadan müziğini dağıtabilir ve panelinden analiz edebilirsin!</p>
+                                    <a href="#">Hemen Kayıt Ol</a>
+                                </div>
+                                <div class="service-card-uniq service-card-border-dance card-h">
+                                    <img src="./assets/imgs/two-step.svg" alt="Service" class="service-card-border-dance2">
+                                    <h2>Albüm veya Single oluşturun!</h2>
+                                    <p>Albüm bilgilerinizi girdikten sonra 3000 x 3000 piksel, JPG veya PNG formatında kapağınızı yükleyin, ardından WAV, formatında ses dosyanızı yükleyin. Dilediğiniz platformu seçip dağıtımınızı yapın.</p>
+                                    <a href="#">Hemen Kayıt Ol</a>
+                                </div>
+                                <div class="service-card-uniq service-card-border-dance card-h">
+                                    <img src="./assets/imgs/three-step.svg" alt="Service" class="service-card-border-dance2">
+                                    <h2>Eserinizi lisanslayın ve Telif Haklarınızı koruyun!</h2>
+                                    <p>Gelirlerinizin tamamını kendi paneliniz üzerinden yönetebilir ve istediğiniz zaman tanımladığınız banka hesabınıza çekim yapabilirsiniz.</p>
+                                    <a href="#">Hemen Kayıt Ol</a>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        <section class="about-service3-area about-service3-style-2" id="earth-area">
+            <img src="./assets/imgs/bg-shape-3.svg" alt="Shape" class="animation-slide-right bg-shape slide-right">
+            <div class="custom-container">
+                <div class="custom-row align-items-center justify-content-between earth-area-wrapper">
+                    <div class="content-box">
+                        <h5 class="section-subtitle fade-in">IMPORTANCE</h5>
+                        <h1 class="section-title fade-in">The Role of Developers</h1>
+                        <p>Software developers, often referred to as coders or programmers, are the creative minds
+                            behind the digital innovations we use daily.</p>
+                        <ul>
+                            <li>
+                                <i class="las la-check"></i> PPD Development
+                            </li>
+                            <li>
+                                <i class="las la-check"></i> Easy to Use
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="img-box d-flex justify-content-end">
+                        <div id="earth"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Area -->
+        <section class="service-area">
+            <div class="custom-container text-center">
+                <div class="service-section-header text-center align-items-end justify-content-between">
+                    <div class="w-full trust-customer">
+                        <h3 class="trust-customer-title">200k user Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Assumenda.</h4>
+                            <p class="trust-customer-desc"> One fundamental aspect of IT services is infrastructure
+                                management. This involves
+                            </p>
+                    </div>
+
+                </div>
+
+                <div class="services-list text-center d-flex justify-content-center">
+                    <div class="service-card">
+                        <img src="./assets/imgs/spotify-services-logo.svg" alt="Service Icon" class="service-icon" />
+                        <h3><a href="./service-details.html">Development</a></h3>
+                        <p>Our development is pixel perfect in all ways.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./assets/imgs/apple-music-services-logo.svg" alt="Service Icon" class="service-icon" />
+                        <h3><a href="./service-details.html">Woo Commerce</a></h3>
+                        <p>We have a best team for your shopping websites.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./assets/imgs/tiktok-services-logo.svg" alt="Service Icon" class="service-icon" />
+                        <h3><a href="./service-details.html">CRM Solutions</a></h3>
+                        <p>We enhance customer experiences for success.</p>
+                    </div>
+                </div>
+                <div class="row trust-customer-btn"></div>
+                <a href="how-we-do.html" class="theme-btn">
+                    Ek Hizmetler
+                    <i class="iconoir-arrow-up-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="about-service3-area about-service3-style-2">
+            <img src="./assets/imgs/bg-shape-3.svg" alt="Shape" class="animation-slide-right bg-shape slide-right">
+            <div class="custom-container">
+                <div class="custom-row align-items-center">
+                    <div class="img-box animate-list-box">
+                        <div class="animate-list-wrapper d-flex ">
+                            <img src="./assets/imgs/musicicon-list.svg" alt="artist-photo">
+                            <div class="animate-text-wrapper d-flex">
+                                <p class="animate-artist-title">Added to new Music</p>
+                                <p class="animate-artist-desc">Dawn</p>
+
+                            </div>
+                            <div class="playericon-wrapper gentle-hover-shake ">
+                                <p class="spotify-icon-animated">Spotify <span></span></pv>
+                            </div>
+                        </div>
+                        <div class="animate-list-wrapper d-flex ">
+                            <img src="./assets/imgs/musicicon-list.svg" alt="artist-photo">
+                            <div class="animate-text-wrapper d-flex">
+                                <p class="animate-artist-title">Added to new Music</p>
+                                <p class="animate-artist-desc">Dawn</p>
+
+                            </div>
+                            <div class="playericon-wrapper gentle-hover-shake">
+                                <p class="applemusic-icon-animated">Apple Music <span></span></pv>
+                            </div>
+                        </div>
+                        <div class="animate-list-wrapper d-flex ">
+                            <img src="./assets/imgs/musicicon-list.svg" alt="artist-photo">
+                            <div class="animate-text-wrapper d-flex">
+                                <p class="animate-artist-title">Added to new Music</p>
+                                <p class="animate-artist-desc">Dawn</p>
+
+                            </div>
+                            <div class="playericon-wrapper gentle-hover-shake">
+                                <p class="tiktok-icon-animated">Tiktok <span></span></pv>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-box animate-list-box-content">
+                        <h5 class="section-subtitle">IMPORTANCE</h5>
+                        <h1 class="section-title">The Role of Developers</h1>
+                        <p>Software developers, often referred to as coders or programmers, are the creative minds
+                            behind the digital innovations we use daily.</p>
+                        <ul>
+                            <li>
+                                <i class="las la-check"></i> PPD Development
+                            </li>
+                            <li>
+                                <i class="las la-check"></i> Easy to Use
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonial-area">
+            <div class="custom-container">
+                <div class="testimonial-slider-wrap">
+                    <div class="testimonial-slider swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-b9c083957b97f830" aria-live="polite"
+                            style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms;">
+                            <div class="swiper-slide testimonial-item swiper-slide-active d-flex justify-content-center align-items-center"
+                                role="group" aria-label="3 / 3" data-swiper-slide-index="2"
+                                style="width: 616px; margin-right: 30px;">
+
+                                <div class="testimonial-artist-image">
+                                    <img src="./assets/imgs/a-man-have-headphones-to-listening-music.jpg" alt="artist-image">
+                                </div>
+                                <div class="testimonial-item-body">
+                                    <img class="bg-shape" src="./assets/imgs/bg-shape-3.svg" alt="Shape">
+                                    <span class="platform-name">
+                                    </span>
+                                    <p class="testimonial-comment-title">Super Comment Title</h4>
+                                    <p class="testimonial-comment">"One aspect that sets IT Services apart is their
+                                        proactive approach to security. In today's digital landscape, protecting our
+                                        sensitive data is of utmost importance."</p>
+                                    <div class="author-box d-flex align-items-center">
+                                        <div class="author-box-content">
+                                            <p class="comment-writer-testimonial">Rachel Olsem<span
+                                                    class="blue-tick-artist"></span></p>
+                                            <p class="comment-writer-title-testimonial">Full Stack Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-item swiper-slide-active d-flex justify-content-center align-items-center"
+                                role="group" aria-label="3 / 3" data-swiper-slide-index="2"
+                                style="width: 616px; margin-right: 30px;">
+
+                                <div class="testimonial-artist-image">
+                                    <img src="./assets/imgs/a-man-have-headphones-to-listening-music.jpg" alt="artist-image">
+                                </div>
+                                <div class="testimonial-item-body">
+                                    <img class="bg-shape" src="./assets/imgs/bg-shape-3.svg" alt="Shape">
+                                    <span class="platform-name">
+                                    </span>
+                                    <p class="testimonial-comment-title">Super Comment Title</h4>
+                                    <p class="testimonial-comment">"One aspect that sets IT Services apart is their
+                                        proactive approach to security. In today's digital landscape, protecting our
+                                        sensitive data is of utmost importance."</p>
+                                    <div class="author-box d-flex align-items-center">
+                                        <div class="author-box-content">
+                                            <p class="comment-writer-testimonial">Rachel Olsem<span
+                                                    class="blue-tick-artist"></span></p>
+                                            <p class="comment-writer-title-testimonial">Full Stack Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-item swiper-slide-active d-flex justify-content-center align-items-center"
+                                role="group" aria-label="3 / 3" data-swiper-slide-index="2"
+                                style="width: 616px; margin-right: 30px;">
+
+                                <div class="testimonial-artist-image">
+                                    <img src="./assets/imgs/a-man-have-headphones-to-listening-music.jpg" alt="artist-image">
+                                </div>
+                                <div class="testimonial-item-body">
+                                    <img class="bg-shape" src="./assets/imgs/bg-shape-3.svg" alt="Shape">
+                                    <span class="platform-name">
+                                    </span>
+                                    <p class="testimonial-comment-title">Super Comment Title</h4>
+                                    <p class="testimonial-comment">"One aspect that sets IT Services apart is their
+                                        proactive approach to security. In today's digital landscape, protecting our
+                                        sensitive data is of utmost importance."</p>
+                                    <div class="author-box d-flex align-items-center">
+                                        <div class="author-box-content">
+                                            <p class="comment-writer-testimonial">Rachel Olsem<span
+                                                    class="blue-tick-artist"></span></p>
+                                            <p class="comment-writer-title-testimonial">Full Stack Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+
+                    <!-- navigation buttons -->
+                    <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                        aria-controls="swiper-wrapper-b9c083957b97f830"><i class="iconoir-arrow-left"></i></div>
+                    <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                        aria-controls="swiper-wrapper-b9c083957b97f830"><i class="iconoir-arrow-right"></i></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Client Section -->
+        <section class="client-area">
+            <div class="clients clients-marquee d-flex align-items-center">
+                <div class="client-logo simple-shadow">
+                    <img src="./assets/imgs/spotify-logo.svg" alt="Client" />
+                </div>
+                <div class="client-logo simple-shadow">
+                    <img src="./assets/imgs/applemusic-logo.svg" alt="Client" />
+                </div>
+                <div class="client-logo simple-shadow">
+                    <img src="./assets/imgs/youtube-music-logo.svg" alt="Client" />
+                </div>
+                <div class="client-logo simple-shadow">
+                    <img src="./assets/imgs/tiktok-logo3.svg" alt="Client" />
+                </div>
+                <div class="client-logo simple-shadow">
+                    <img src="./assets/imgs/facebook-logo3.svg" alt="Client" />
+                </div>
+                <div class="client-logo simple-shadow">
+                    <img src="./assets/imgs/instagram-logo2.svg" alt="Client" />
+                </div>
+                <div class="client-logo simple-shadow">
+                    <img src="./assets/imgs/fizy-logo.svg" alt="Client" />
+                </div>
+                <div class="client-logo simple-shadow">
+                    <img src="./assets/imgs/Muud-logo.png" alt="Client" />
+                </div>
+                <div class="client-logo" style="margin-right: 20px; min-width:0;"></div>
+            </div>
+        </section>
+
+
+        <!-- How We Do -->
+        <section class="how-we-do-area">
+            <div class="custom-container">
+                <div class="custom-row">
+                    <img src="./assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left how-we-do-bg" />
+                    <div class="how-we-do-left-content">
+                        <div class="top">
+                            <h5 class="section-subtitle">Our Model</h5>
+                            <h1 class="section-title">How we do</h1>
+                            <p>Save time and money with our powerful method.</p>
+                        </div>
+                        <a href="how-we-do.html" class="theme-btn">
+                            Learn More
+                            <i class="iconoir-arrow-up-right"></i>
+                        </a>
+                    </div>
+                    <div class="how-we-do-right-content">
+                        <div class="dotted-chart-animation">
+                        </div>
+                        <div class="how-we-do-items d-flex align-items-center justify-content-center">
+
+                            <div class="how-we-do-card">
+
+                                <div class="how-we-do-icon">
+                                    <img src="./assets/imgs/hwd-icon-1.svg" alt="How we do" />
+                                </div>
+                                <div class="how-we-do-content">
+                                    <h4>Brainstroming</h4>
+                                    <p>Ideas</p>
+                                </div>
+                            </div>
+
+                            <div class="how-we-do-card">
+
+                                <div class="how-we-do-icon">
+                                    <img src="./assets/imgs/hwd-icon-2.svg" alt="How we do" />
+                                </div>
+                                <div class="how-we-do-content">
+                                    <h4>Product</h4>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+
+                            <div class="how-we-do-card">
+
+                                <div class="how-we-do-icon">
+                                    <img src="./assets/imgs/hwd-icon-3.svg" alt="How we do" />
+                                </div>
+                                <div class="how-we-do-content">
+                                    <h4>Front-End</h4>
+                                    <p>Development</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="how-we-do-items d-flex align-items-center justify-content-center">
+                            <div class="how-we-do-card">
+
+                                <div class="how-we-do-icon">
+                                    <img src="./assets/imgs/hwd-icon-4.svg" alt="How we do" />
+                                </div>
+                                <div class="how-we-do-content">
+                                    <h4>SEO</h4>
+                                    <p>Optimization</p>
+                                </div>
+                            </div>
+
+                            <div class="how-we-do-card">
+
+                                <div class="how-we-do-icon">
+                                    <img src="./assets/imgs/hwd-icon-5.svg" alt="How we do" />
+                                </div>
+                                <div class="how-we-do-content">
+                                    <h4>Back-End</h4>
+                                    <p>Development</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- About Section -->
+        <section class="about-area">
+            <div class="custom-container">
+                <div class="custom-row justify-content-between align-items-center">
+                    <div class="left-content">
+                        <h5 class="section-subtitle">CONSULTING EXCELLENCE</h5>
+                        <h1 class="section-title">Best pathway to our clients.</h1>
+                        <p>Our consulting process begins with a
+                            thorough assessment of your current IT
+                            infrastructure, workflows, and pain points.</p>
+                        <ul>
+                            <li>
+                                <i class="icon-check las la-check"></i> 24/7 Full Service Support
+                            </li>
+                            <li>
+                                <i class="icon-check las la-check"></i> Immediate Response
+                            </li>
+                            <li>
+                                <i class="icon-check las la-check"></i> Easy to Approach us
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="right-content">
+                        <div class="about-timeline">
+
+                            <div class="about-timeline-item">
+                                <div class="about-timeline-item-inner">
+                                    <img src="./assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                                    <span class="number">01</span>
+                                    <h3>Discovery and Analysis</h3>
+                                    <p>Perform a analysis of the client's existing IT systems.</p>
+                                </div>
+                            </div>
+                            <div class="about-timeline-item">
+                                <div class="about-timeline-item-inner">
+                                    <img src="./assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                                    <span class="number">02</span>
+                                    <h3>Tailored Solutions</h3>
+                                    <p>Develop IT solutions based on the analysis phase.</p>
+                                </div>
+                            </div>
+                            <div class="about-timeline-item">
+                                <div class="about-timeline-item-inner">
+                                    <img src="./assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                                    <span class="number">03</span>
+                                    <h3>Deployment and Support</h3>
+                                    <p>Regularly communicate with our client to any concern.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- News Section -->
+        <section class="news-area">
+            <div class="custom-container">
+                <div class="sticky-news d-flex card-h">
+                    <div class="news-content">
+                        <h1 class="section-title">
+                            Alışveriş deneyiminizi iyileştirmek için araştırıyor ve yazıyoruz!
+                        </h1>
+                        <p>Small UK merchants, businesses, and other enterprises can now use Tap to Pay on service to
+                            replace payment terminals at point of sale.</p>
+                        <div class="subscription-form-wrapper">
+                            <form action="assets/mail/subscribe.php" method="POST" class="subscribe-form">
+                                <div class="subscribe-box d-flex">
+                                    <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                                    <button id="submit2" class="custom-theme-btn1">Abone Ol</button>
+                                </div>
+                                <!-- Alert Message -->
+                                <div class="input-row">
+                                    <div class="input-group alert-notification">
+                                        <div id="alert-message-subscribe" class="alert-msg"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="news-img-box">
+                        <img src="./assets/imgs/a-woman-have-to-headphones-to-listening-music.png" alt="News" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-area">
+            <img src="./assets/imgs/bg-shape-4.svg" alt="Shape" class="animation-slide-right bg-shape" />
+            <div class="footer-top">
+                <div class="custom-container">
+                    <div class="footer-website-logo">
+                        <img src="./assets/imgs/md-footer-logo_resize.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="custom-container">
+                    <div class="custom-row">
+                        <div class="footer-contact-info">
+                            <div class="footer-contact-info-item">
+                                <h4>Lorem İpsum</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis accusantium impedit delectus.
+                                </p>
+                            </div>
+                            <div class="footer-contact-info-item">
+                                <ul class="social-links d-flex align-items-center">
+                                    <li><a href="#">
+                                            <i class="iconoir-dribbble"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="iconoir-facebook"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="iconoir-x"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="iconoir-instagram"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="iconoir-linkedin"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="iconoir-youtube"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="iconoir-dribbble"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-contact-info-item"><img src="./assets/imgs/logo_band_white@1X.png" alt=""></div>
+                        </div>
+                        <div class="footer-all-links-wrap justify-content-between d-flex">
+                            <div class="footer-links">
+                                <h3>Destek</h3>
+                                <ul>
+                                    <li><a href="service-details.html">IT Support</a></li>
+                                    <li><a href="service-details.html">Web Design</a></li>
+                                    <li><a href="service-details.html">Development</a></li>
+                                    <li><a href="service-details.html">Cloud Things <span class="new">New</span></a>
+                                    </li>
+                                    <li><a href="service-details.html">E-Commerce</a></li>
+                                    <li><a href="service-details.html">CRM Solutions</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-links">
+                                <h3>Politika</h3>
+                                <ul>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="partner.html">Partners</a></li>
+                                    <li><a href="career.html">Careers</a></li>
+                                    <li><a href="event.html">Events</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-links">
+                                <h3>İletişim</h3>
+                                
+                                <p class="custom-location">Lorem İpsum Dolor </p></li>
+                                <p class="custom-mail"><a href="mailto:webmaster@example.com">mail@mail.com</a></p>
+                                <p class="custom-phone"><a href="tel:08501234567">0850 123 45 67</a></p>
+                                    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright-area">
+                <div class="custom-container">
+                    <div class="custom-row d-flex align-items-center justify-content-center text-center">
+                        <p class="">&copy; 2023 All rights reserved by <a
+                                href="https://themeforest.net/user/wordpressriver/portfolio">WordpressRiver</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/gsap.min.js"></script>
+    <script src="./assets/js/Draggable.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/client-marquee.js"></script>
+    <script src="./assets/js/theme-custom.js"></script>
+    <script src="./assets/js/form1.js"></script>
+    <script src="./assets/js/subscribe-form.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
+
+
+
+</body>
+
+</html>
